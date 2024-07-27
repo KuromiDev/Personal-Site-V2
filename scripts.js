@@ -30,6 +30,8 @@ const writeLoop = async () => {
             el.innerText = curWord.substring(0, i - 1);
             await sleep(sleepTime);
         }
+
+        await sleep(sleepTime * 10)
     }
 };
 
