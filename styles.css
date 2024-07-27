@@ -17,6 +17,26 @@ html * {
 	pointer-events: none;
 }
 
+#cursor{
+	font-family:'Trebuchet MS', sans-serif;
+	font-size: 2vw;
+	font-weight: bold;
+	color: #e6e18f;
+	text-shadow: 0 0 15px #e6e18f;
+	user-select: none;
+	pointer-events: none;
+	animation: blink 1s linear infinite;
+}
+
+@keyframes blink{
+	0% {
+		opacity: 100%;
+	}
+	50%{
+		opacity: 0%;
+	}
+}
+
 .subtitle{
 	margin-left: 42%;
 	font-family:'Trebuchet MS', sans-serif;
