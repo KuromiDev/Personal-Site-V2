@@ -37,6 +37,15 @@ html * {
 	}
 }
 
+@keyframes hoverblink{
+	0% {
+		opacity: 100%;
+	}
+	50%{
+		opacity: 50%;
+	}
+}
+
 .subtitle{
 	margin-left: 42%;
 	font-family:'Trebuchet MS', sans-serif;
@@ -98,6 +107,11 @@ html * {
 	border-radius: 10%;
 	box-shadow: 0 0 10px white;
 	border-radius: 10%;
+}
+
+.contactbutton:hover{
+	animation: hoverblink 1s linear infinite;
+	cursor: pointer;
 }
 
 .content_boxes{
