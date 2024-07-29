@@ -145,7 +145,35 @@ html * {
 	text-align: center;	
 }
 
+.aboutpage_content{
+	width: 44%;
+	margin-left: 29.5%;
+	margin-top: 5%;
+	font-weight: bold;
+	font-family:'Trebuchet MS', sans-serif;
+}
 
+#about_title{
+	color: white;
+}
+
+#about_content{
+	color: white;
+}
+
+.footer{
+	margin-left: 43.5%;
+	margin-top: 4.5%;
+	opacity: 50%;
+}
+
+.footertext{
+	color: white;
+	font-weight: bold;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size: 1vw;
+	
+}
 
 @media (max-width: 768px) {
 
@@ -228,9 +256,27 @@ html * {
 		text-align: center;	
 	}
 
+	.aboutpage_content{
+		width: 80%;
+		margin-left: 11%;
+		margin-top: 15%;
+		font-weight: bold;
+		font-family:'Trebuchet MS', sans-serif;
+	}
 
-
-
+	.footer{
+		margin-left: 38.5%;
+		margin-top: 4.5%;
+		opacity: 50%;
+	}
+	
+	.footertext{
+		color: white;
+		font-weight: bold;
+		font-family:'Trebuchet MS', sans-serif;
+		font-size: 1vh;
+		
+	}
 
 
 }
